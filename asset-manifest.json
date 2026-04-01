@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mini-project-7-live-news-api-with-class-component/static/css/main.14f48d62.css",
+    "main.js": "/mini-project-7-live-news-api-with-class-component/static/js/main.cd21a1bb.js",
+    "index.html": "/mini-project-7-live-news-api-with-class-component/index.html",
+    "main.14f48d62.css.map": "/mini-project-7-live-news-api-with-class-component/static/css/main.14f48d62.css.map",
+    "main.cd21a1bb.js.map": "/mini-project-7-live-news-api-with-class-component/static/js/main.cd21a1bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14f48d62.css",
+    "static/js/main.cd21a1bb.js"
+  ]
+}
