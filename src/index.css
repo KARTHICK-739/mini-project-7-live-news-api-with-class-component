@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f6f9;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card hover effect */
+.news-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  border: none !important;
+  border-radius: 12px !important;
+  overflow: hidden;
+}
+
+.news-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Active navbar button */
+.btn-category.active {
+  background-color: #fff !important;
+  color: #0d6efd !important;
+  font-weight: 600;
+}
+
+/* Card image */
+.news-card img {
+  transition: transform 0.3s ease;
+}
+
+.news-card:hover img {
+  transform: scale(1.04);
+}
+
+/* Loading spinner container */
+.spinner-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
